@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Contact info and skills section styles */
+.contact-info, .skills {
+    margin: 20px;
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Skill list styles */
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-list img {
+    width: 24px; /* Adjust the width and height as needed */
+    height: 24px;
+    margin-right: 10px; /* Add spacing between badge and skill text */
+}
+
+/* Additional styles for profile section */
+.profile {
+    margin: 20px;
+    text-align: justify; /* Adjust text alignment as needed */
+}
+
+/* Flexbox layout for the main container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Style for the left (Details and Skills) section */
+.details-skills {
+    width: 40%;
+    /* Remove the outer border */
+    border: none;
+}
+
+/* Style for the right (Video) section */
+.video {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap between Profile and Video sections */
+    /* Remove the outer border */
+    border: none;
+}
+
+/* Style for the Profile section */
+.profile {
+    /* Profile content styles go here */
+}
+
+/* Style for the Video section */
+.video {
+    /* Video content styles go here */
+}
