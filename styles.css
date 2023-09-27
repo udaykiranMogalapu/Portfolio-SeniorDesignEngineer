@@ -68,29 +68,27 @@ footer {
     padding: 20px;
 }
 
-/* Style for the left (Details and Skills) section */
-.details-skills {
-    width: 40%;
-    /* Remove the outer border */
-    border: none;
+
+
+.employment-history{
+    width: 300%;
+    padding-left: 20px;
 }
 
-/* Style for the right (Video) section */
-.video {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Adjust the gap between Profile and Video sections */
-    /* Remove the outer border */
-    border: none;
+.awards,.courses,.education,.total-experience{
+    margin: 20px;
+
 }
 
-/* Style for the Profile section */
-.profile {
-    /* Profile content styles go here */
+
+/* Adjust these styles as needed for the left and right sections */
+
+
+/* Increase the gap between the skills section and the employment history section */
+.skills {
+    margin-bottom: 30px; /* Adjust as needed */
 }
 
-/* Style for the Video section */
-.video {
-    /* Video content styles go here */
+.video{
+    padding-left: 55px;
 }
